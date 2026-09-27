@@ -1,0 +1,8 @@
+# Foundry build artifacts
+out/
+cache/
+broadcast/**/dry-run/
+
+# Secrets never live in this repository
+.env
+.env.*
